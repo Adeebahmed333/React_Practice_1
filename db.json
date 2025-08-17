@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Adeeb Ahmed",
+      "username": "adeeb_dev",
+      "email": "adeeb@example.com",
+      "password": "hashed_password_123",
+      "age": 23,
+      "gender": "male",
+      "phone": "+91-9876543210",
+      "address": {
+        "street": "123 MG Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "560001"
+      },
+      "isActive": true,
+      "createdAt": "2025-08-17T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Siddhant Jadhav",
+      "username": "sid_frontend",
+      "email": "sid@example.com",
+      "password": "hashed_password_456",
+      "age": 24,
+      "gender": "male",
+      "phone": "+91-9123456789",
+      "address": {
+        "street": "456 IT Park",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "pincode": "411001"
+      },
+      "isActive": false,
+      "createdAt": "2025-08-10T11:30:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Gaming Laptop",
+      "brand": "Asus",
+      "price": 120000,
+      "inStock": true,
+      "ratings": 4.5,
+      "tags": ["electronics", "laptop", "gaming"],
+      "warranty": "2 years",
+      "createdAt": "2025-07-20T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Wooden Chair",
+      "brand": "Adeeb Furniture",
+      "price": 4500,
+      "inStock": true,
+      "ratings": 4.0,
+      "tags": ["furniture", "wood", "chair"],
+      "warranty": "1 year",
+      "createdAt": "2025-07-25T12:00:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 1,
+      "quantity": 1,
+      "status": "shipped",
+      "payment": {
+        "method": "UPI",
+        "transactionId": "TXN12345",
+        "amount": 120000
+      },
+      "orderDate": "2025-08-01T09:30:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "productId": 2,
+      "quantity": 4,
+      "status": "delivered",
+      "payment": {
+        "method": "Credit Card",
+        "transactionId": "TXN67890",
+        "amount": 18000
+      },
+      "orderDate": "2025-08-05T16:00:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": 2,
+      "rating": 5,
+      "comment": "Amazing performance! Perfect for gaming.",
+      "createdAt": "2025-08-06T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "userId": 1,
+      "rating": 4,
+      "comment": "Very comfortable and sturdy chair.",
+      "createdAt": "2025-08-08T12:30:00Z"
+    }
+  ]
+}
