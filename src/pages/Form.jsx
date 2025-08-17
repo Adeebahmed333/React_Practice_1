@@ -334,7 +334,7 @@ const Form = () => {
 
                 <button type="submit" className="btn btn-success mt-3"
                     disabled={!formValid.buttonActive}>
-                    Update
+                    Create
                 </button>
             </form>
 
