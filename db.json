@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Adeeb Ahmed",
       "username": "adeeb_dev",
       "email": "adeeb@example.com",
@@ -19,7 +19,7 @@
       "createdAt": "2025-08-17T09:00:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Siddhant Jadhav",
       "username": "sid_frontend",
       "email": "sid@example.com",
@@ -35,35 +35,79 @@
       },
       "isActive": false,
       "createdAt": "2025-08-10T11:30:00Z"
+    },
+    {
+      "id": "8fbb",
+      "name": "Adeeb",
+      "username": "adbbh",
+      "email": "adddb@vfns.com",
+      "password": "Taxskjdbf@@1",
+      "age": "23",
+      "gender": "male",
+      "phone": "+91-8448977648",
+      "address": {
+        "street": "akjsdb",
+        "city": "ajbfmaf",
+        "state": "anmfb am",
+        "pincode": "119923"
+      },
+      "isActive": true,
+      "createdAt": "1232-33-44T11:11:11Z"
+    },
+    {
+      "id": "c746",
+      "name": "Adeeb",
+      "username": "adbbh",
+      "email": "adddb@vfns.com",
+      "password": "Taxskjdbf@@1",
+      "age": "23",
+      "gender": "male",
+      "phone": "+91-8448977648",
+      "address": {
+        "street": "akjsdb",
+        "city": "ajbfmaf",
+        "state": "anmfb am",
+        "pincode": "119923"
+      },
+      "isActive": false,
+      "createdAt": "2025-08-17T06:01:08.423Z"
     }
   ],
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Gaming Laptop",
       "brand": "Asus",
       "price": 120000,
       "inStock": true,
       "ratings": 4.5,
-      "tags": ["electronics", "laptop", "gaming"],
+      "tags": [
+        "electronics",
+        "laptop",
+        "gaming"
+      ],
       "warranty": "2 years",
       "createdAt": "2025-07-20T10:00:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Wooden Chair",
       "brand": "Adeeb Furniture",
       "price": 4500,
       "inStock": true,
-      "ratings": 4.0,
-      "tags": ["furniture", "wood", "chair"],
+      "ratings": 4,
+      "tags": [
+        "furniture",
+        "wood",
+        "chair"
+      ],
       "warranty": "1 year",
       "createdAt": "2025-07-25T12:00:00Z"
     }
   ],
   "orders": [
     {
-      "id": 1,
+      "id": "1",
       "userId": 1,
       "productId": 1,
       "quantity": 1,
@@ -76,7 +120,7 @@
       "orderDate": "2025-08-01T09:30:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "userId": 2,
       "productId": 2,
       "quantity": 4,
@@ -91,7 +135,7 @@
   ],
   "reviews": [
     {
-      "id": 1,
+      "id": "1",
       "productId": 1,
       "userId": 2,
       "rating": 5,
@@ -99,7 +143,7 @@
       "createdAt": "2025-08-06T10:00:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "productId": 2,
       "userId": 1,
       "rating": 4,
