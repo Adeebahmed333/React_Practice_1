@@ -243,6 +243,7 @@ const Form = () => {
 
     return (
         <div style={{ width: 600, margin: '0px auto' }}>
+            <h1 className='text-center'>User Registration Form</h1>
             <form onSubmit={create}>
                 <div className="form-group">
                     <label>Name:</label>
