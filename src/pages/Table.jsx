@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const Table = () => {
     const [orders, setOrders] = useState([]);
-    
+
     useEffect(() => {
         async function fetchData() {
             try {
@@ -15,7 +15,7 @@ const Table = () => {
             }
         }
         fetchData();
-    });
+    },[]);
 
     return (
         <div className="container mt-4">
